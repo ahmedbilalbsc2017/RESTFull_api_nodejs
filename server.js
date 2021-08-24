@@ -11,7 +11,7 @@ const userRoutes= require('./api/routes/user');
 const port = process.env.PORT || 3000;
 
 //db con
-mongoose.connect('mongodb+srv://abc:' + process.env.MONGO_ATLAS_PW + '@shoping-dev.mtwxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://abc:' + process.env.MONGO_ATLAS_PW + '@string/should.be/pasted.first',{ useNewUrlParser: true, useUnifiedTopology: true });
 //to avoid deprication warning
 mongoose.Promise = global.Promise;
 
